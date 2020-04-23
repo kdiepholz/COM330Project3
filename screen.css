@@ -71,6 +71,14 @@ h2{
 	text-decoration:underline;
 	padding: 8px 0;
 }
+h3{
+	color: black;
+    text-align: center;
+    font-weight:bold;
+	font-size: 125%;
+	text-decoration:underline;
+	padding: 8px 0;
+}
 p{
 	font-family:Comic Sans MS, Comic Sans, cursive;
     text-align:left;
@@ -120,6 +128,13 @@ div.outro{
     padding-left: 1.125em;
 }
 
+#contactinfo{
+	margin-top: 1em;
+	text-align: center;
+	font-size: 1.5em;
+	
+}
+
 /*div.content{
   display: block;
   padding-top: 2em;
@@ -152,6 +167,8 @@ div.block{
   display: table;
   clear: both;
 }
+
+
 @media screen and (max-width:800px){
 .column{
 width:100%;
