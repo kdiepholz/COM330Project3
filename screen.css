@@ -137,7 +137,11 @@ div.outro{
 	text-align: center;
 	font-size: 1.5em;
 }
-
+#projects{
+	margin-top: 1em;
+	text-align: center;
+	font-size: 1.5em;
+}
 /*div.content{
   display: block;
   padding-top: 2em;
