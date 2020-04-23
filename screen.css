@@ -94,6 +94,14 @@ p1{
 	font-size: 75%;
 	hyphens: auto;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
 div.outro{
 	text-align:center;
 }
