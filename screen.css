@@ -198,6 +198,25 @@ p {
   font-size: .75em;
   line-height: 1em;
 }
+p1{
+	font-size: .75em;
+	line-height: 1em;
+}
+h2{
+	font-size:1em;
+}
+h3{
+	font-size:1.25em
+}
+#resume p1{
+	font-size:.75em;
+}
+#projects p1{
+	font-size:.75em;
+}
+#projects h3{
+	font-size:1.25em;
+}
 }
 
 /* Add a black background color to the top navigation */
