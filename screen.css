@@ -80,7 +80,7 @@ p{
 	font-family:Comic Sans MS, Comic Sans, cursive;
     text-align:left;
     color: black;
-	padding: 6px 0;
+	padding: 6px 6px;
 	font-size: 85%;
 	hyphens: auto;
 }
@@ -102,12 +102,13 @@ footer {
 }
 ul {
     display: flex;
-    flex-wrap:wrap;
 }
 li{
-    flex:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
     flex-wrap:wrap;
-    justify-content:space-between;
+    flex:1;
 }
 #hobbies{
     display: flex;
