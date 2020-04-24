@@ -46,15 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-img,audio,video{
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    max-width:35%;
-    max-height:35%;
-    padding-bottom: 0.5em;  
-    padding-top: 0.5em;
-    padding-left: 1.125em;
+img {
+  display: block;
+  max-width: 75%;
+  padding-right:5em;
+  padding-left:5em;
+  
 }
 h1{
     color: black;
@@ -108,32 +105,15 @@ ul {
 }
 li{
     flex:auto;
+    justify-content:space-between;
 }
-.swimming{
-    display:block;
-    max-width:80%;
-    max-height:80%
-    padding-bottom: .5em;
-    padding-top: 0.5em;
-    padding-left: 1.125em;
+.hobbies{
+    display:flex;
+    flex-wrap:wrap;
+    padding:5em;
+    justify-content:space-between;
+    align-items: flex-start;
 }
-.climbing {
-    display: block;
-    max-width:65%;
-    max-height:65%;
-    padding-bottom: .5em;
-    padding-top: 0.5em;
-    padding-left: 1.125em;
-}
-.videogame {
-    display:block;
-    max-width:83%;
-    max-height:83%;
-    padding-bottom: .5em;
-    padding-top: 0.5em;
-    padding-left: 1.125em;
-}
-
 #contactinfo{
 	margin-top: 1em;
 	text-align: center;
@@ -149,40 +129,6 @@ li{
 	text-align: center;
 	font-size: 1.5em;
 }
-/*div.content{
-  display: block;
-  padding-top: 2em;
-  border-top: .1em solid black;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "Swimming, Video Games, Climbing"
-  grid-row-gap: 3em;
-  grid-column-gap: 3em;
-}
-
-div.block{
-  text-align: left;
-  color: black;
-  line-height: 1.5em;
-  padding-left: 1em;
-  padding-right: 1.125em;
-}
-*/
-
-.column {
-  float: left;
-  width: 33.33%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
 @media screen and (max-width:800px){
 .column{
 width:100%;
