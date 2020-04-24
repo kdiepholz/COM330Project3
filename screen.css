@@ -48,7 +48,7 @@ table {
 }
 img {
   display: block;
-  max-width: 75%;
+  max-width: 50%;
   height:auto;
   margin-right:auto;
   margin-left:auto;
@@ -92,7 +92,6 @@ p1{
 	font-size: 75%;
 	hyphens: auto;
 }
-
 footer {
   position: fixed;
   left: 0;
@@ -103,9 +102,11 @@ footer {
 }
 ul {
     display: flex;
+    flex-wrap:wrap;
 }
 li{
     flex:auto;
+    flex-wrap:wrap;
     justify-content:space-between;
 }
 #hobbies{
