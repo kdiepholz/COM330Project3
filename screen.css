@@ -52,7 +52,7 @@ img {
   height:auto;
   margin-right:auto;
   margin-left:auto;
-  object-fit:contain;
+  align-self:center;
 }
 h1{
     color: black;
@@ -110,6 +110,8 @@ li{
 }
 #hobbies{
     display: flex;
+    max-width:100%;
+    align-self:center;
 }
 #contactinfo{
 	margin-top: 1em;
