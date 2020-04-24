@@ -94,7 +94,8 @@ p1{
 	font-size: 75%;
 	hyphens: auto;
 }
-.footer {
+
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -102,13 +103,11 @@ p1{
   color: black;
   text-align: center;
 }
-div.outro{
-	text-align:center;
+ul {
+    display: flex;
 }
-.background{
-    color: white;
-	height: 100%;
-	margin: auto;
+li{
+    flex:auto;
 }
 .swimming{
     display:block;
