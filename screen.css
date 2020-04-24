@@ -154,14 +154,9 @@ h2{
 h3{
 	font-size:1.25em
 }
-#resume p1{
-	font-size:.75em;
-}
-#projects p1{
-	font-size:.75em;
-}
-#projects h3{
-	font-size:1.25em;
+hobbies{
+    display:grid;
+    grid-template-columns:1fr;
 }
 }
 
