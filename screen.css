@@ -49,6 +49,7 @@ table {
 img {
   display: block;
   max-width: 75%;
+  height:auto;
   margin-right:auto;
   margin-left:auto;
   object-fit:contain;
@@ -107,12 +108,10 @@ li{
     flex:auto;
     justify-content:space-between;
 }
-.hobbies{
-    display:flex;
-    flex-wrap:wrap;
-    padding:5em;
-    justify-content:space-between;
-    align-items: flex-start;
+#hobbies{
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }
 #contactinfo{
 	margin-top: 1em;
