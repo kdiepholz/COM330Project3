@@ -110,8 +110,6 @@ li{
 }
 #hobbies{
     display: flex;
-    align-items:center;
-    justify-content:center;
 }
 #contactinfo{
 	margin-top: 1em;
